@@ -1,9 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<link rel="stylesheet" type="text/css" href="problema_2.css">
+	<title>Problema 2</title>
 </head>
-<body>
 
+<body>
+		<a href="../index.html"><img src="casa-de-perro.png"></a>
+		<nav class="navegacion">
+			<ul>
+				<li><a href="../Ejercicio_1/problema_1.html">Problema 1</a></li>
+				<li><a href="#">Problema 2</a></li>
+			</ul>
+		</nav>
+
+		<div class="contenido">
+			<h1>Coordenadas de un Punto</h1>
+			<h2>Esta pagina te dice en que posicion de este plano te encuentras por medio de las posiciones X Y</h2>
+			<img src="plano.png">
+			<div class="operaciones">
+				<p>X = <input type="number" id="puntoX"></p>
+				<p>Y = <input type="number" id="puntoY"></p>
+				<input type="button" id="process" value="Calcular">
+				<hr>
+				<p>Estas en la seccion = <input type="text" id="resultado" disabled></p>
+			</div>	
+		</div>
+	
+		<script type="text/javascript" src="problema_2.js"></script>
 </body>
 </html>
